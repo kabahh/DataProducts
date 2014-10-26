@@ -3,6 +3,7 @@ library(ShinyDash)
 
 shinyUI(bootstrapPage( h1(HTML("Linear Regression Validity Gauge")),
 				sidebarPanel(
+				h3("Motor Trend Car Road Tests Analysis"),
 				h4("1. Select the independent variables you believe are associated with MPG, multiple selection is allowed (Hold Shift Key)."),
 				h4("2. Review the results in the GAUGE box and STATUS box."),
 				h4("3. If you feel that the order of the boxes is confusing, move them! They are designed to be moved around as needed for idea flow."),
